@@ -3,7 +3,7 @@ const { default: mongoose } = require("mongoose");
 
 const menSchema = new mongoose.Schema({
     id: {
-        type: String,
+        type: Number,
         required:true,
         unique :true
     },
