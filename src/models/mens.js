@@ -18,11 +18,11 @@ const menSchema = new mongoose.Schema({
     },
     Created_at: {
         type: String,
-        required:true
+        
     },
     Updated_at: {
         type: String,
-        required:true
+        
         
     },
     Catgory_id: {
@@ -32,5 +32,5 @@ const menSchema = new mongoose.Schema({
         
     },
 })
-const MensRanking = new mongoose.model("MensRanking",menSchema)
-module.exports = MensRanking;
+const BlogApi = new mongoose.model("BlogApi",menSchema)
+module.exports = BlogApi;
